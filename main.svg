@@ -1,0 +1,110 @@
+<svg fill="#F00" viewBox="0 0 600 800" width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .body{
+                width: 100%;
+                height: 800px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background: #FFFFFF;
+            }
+            .header{
+                min-width: 100%;
+                text-align: center;
+                padding: 10px 20px;
+                display: grid;
+                place-items: center;
+                box-shadow: 2px 2px 2px 2px rgb(189 180 180 / 16%);
+            }
+            .header h1{
+                overflow: hidden;
+                border-right: .15em solid orange;
+                white-space: nowrap;
+                animation: 
+                    typing 2.8s forwards;
+                font-size: 20px;
+                width: 0;
+            }
+            @keyframes typing {
+                0% { width: 0 }
+                90% { border-right: .15em solid orange }
+                100% { width: 100%; border-right: 0; }
+            }
+            .container{
+                min-width: 100%;
+                height: 100vh;
+                padding: 15px 20px;
+            }
+            .container span{
+                width: fit-content;
+                display: block;
+                position: relative;
+                font-size: 12px;
+                font-weight: 600;
+                margin-top: 20px;
+            }
+            .container span::before{
+                content: "";
+                position: absolute;
+                width: 50%;
+                height: 1px;
+                bottom: -5px;
+                border-bottom: 1px solid rgb(189 180 180);
+            }
+            .projects_images{
+                display: grid;
+                margin-top: 20px;
+                place-items: center;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 30px;
+            }
+            .projects_images img:hover{
+                animation: project_image 0.5s forwards;
+            }
+            
+            @keyframes project_image {
+                from{
+                    transform: scale(1);
+                }
+                to{
+                    transform: scale(1.1);
+                }
+            }
+            </style>
+            <div class="body">
+                <div class="header">
+                    <h1>Hello 👋👋, I am Hitarth Ganatra</h1>
+                </div>
+                <div class="container">
+                    <div class="data">
+                        <span class="projects">Best Projects so far ....</span>
+                        <div class="projects_images">
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 1" />
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 2" />
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 3" />
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 4" />
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 5" />
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 6" />
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 7" />
+                            <img src="https://dummyimage.com/150x150/000/fff" alt="Project 8" />
+                        </div>
+                    </div>
+                    <div class="data">
+                        <span class="expertise">Know my expertise 🎨... </span>
+                    </div>
+                    <div class="data">
+                        <span class="about_me">Know about me 😋... </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
