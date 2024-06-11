@@ -36,7 +36,7 @@
             @keyframes typing {
                 0% { width: 0 }
                 90% { border-right: .15em solid orange }
-                100% { width: 70%; border-right: 0; }
+                100% { width: 60%; border-right: 0; }
             }
             .container{
                 min-width: 100%;
@@ -81,7 +81,7 @@
             </style>
             <div class="body">
                 <div class="header">
-                    <h1>Hello 👋👋, I am Hitarth Ganatra</h1>
+                    <h1>Hello 👋👋, <br /> I am Hitarth Ganatra</h1>
                 </div>
                 <div class="container">
                     <div class="data">
