@@ -36,7 +36,7 @@
             @keyframes typing {
                 0% { width: 0 }
                 90% { border-right: .15em solid orange }
-                100% { width: 60%; border-right: 0; }
+                100% { width: 50%; border-right: 0; }
             }
             .container{
                 min-width: 100%;
